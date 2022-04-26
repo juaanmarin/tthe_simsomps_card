@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+* {
+ margin: 0;   
+ padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Water Brush', cursive;
+  font-size: 5rem;
+  color: #f8e113;
+  text-shadow: 0 0 10px #000;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+}
+
+button {
+  width: 12rem;
+  height: 3.5rem;
+  border-radius: 15px;
+  border: groove 5px #04443f;
+  background-color: #0a508a;
+  color: #fafafa;
+  font-size: 2rem;
+}
+
+button:hover {
+  box-shadow: 0 0 15px #a50feb;
+  cursor: pointer;
+  background-color: #14eeee;
+}
+
+.card {
+  width: 23rem;
+  border-radius: 10px;
+  border: groove 3px #384352;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card p {
+  color: #570505;
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
